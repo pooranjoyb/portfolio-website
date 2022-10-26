@@ -23,7 +23,7 @@ export default function Contact() {
                         <a href="https://www.instagram.com/pooranjoyz_.ig/" target="_blank">
 
 
-                            <img src="icons/ig.png" alt="" id="ig"/>
+                            <img src="../public/icons/ig.png" alt="" id="ig"/>
                         </a>
                     </li>
                     <li>
