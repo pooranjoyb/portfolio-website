@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react';
 import Carousel from 'react-elastic-carousel';
 
 const breakpoints = [
@@ -9,7 +8,6 @@ const breakpoints = [
     { width: 1200, itemsToShow: 4 },
 ];
 
-var value;
 export default function Projects() {
     return (
         <>
@@ -18,7 +16,7 @@ export default function Projects() {
                     FEATURED <strong className='text-altdeep'>PROJECTS</strong>
                 </div>
                 <div className='wrapper'>
-                    <Carousel className="carousel" breakpoints={breakpoints} transitionMs={1000} enableSwipe={value} autoPlaySpeed={3000} >
+                    <Carousel className="carousel" breakpoints={breakpoints} transitionMs={1000} enableAutoPlay={true} autoPlaySpeed={3000} >
                         <div className='carousel card'><img src="img/imperialPalace.png" alt="" />
                             <span  id='text'>
                                 UI for a responsive luxurious hotel made with pure HTML and CSS<br/>
