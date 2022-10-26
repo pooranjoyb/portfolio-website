@@ -17,34 +17,34 @@ export default function Projects() {
                 </div>
                 <div className='wrapper'>
                     <Carousel className="carousel" breakpoints={breakpoints} transitionMs={1000} enableAutoPlay={false} autoPlaySpeed={3000} >
-                        <div className='carousel card'><img src="img/imperialPalace.png" alt="" />
+                        <div className='carousel card'><img src="./img/imperialPalace.png" alt="" />
                             <span  id='text'>
                                 UI for a responsive luxurious hotel made with pure HTML and CSS<br/>
                                 <a href="https://github.com/pooranjoyb/Hotel_ImperialPalace" target="_blank">Check this out!</a>
                             </span>
                         </div>
-                        <div className='carousel card'><img src="img/portfolio.png" alt="" />
+                        <div className='carousel card'><img src="./img/portfolio.png" alt="" />
                             <span id='text'>
                                 Portfolio Website using ReactJS
                                 <br/>
                                 <a href="">Check this out!</a>
                             </span>
                         </div>
-                        <div className='carousel card'><img src="img/ageCalc.png" alt="" />
+                        <div className='carousel card'><img src="./img/ageCalc.png" alt="" />
                             <span id='text'> 
                                 Age Calculator App using HTML, CSS & JavaScript
                                 <br/>
                                 <a href="https://github.com/pooranjoyb/Age-Calculator" target="_blank" >Check this out!</a>
                             </span>
                         </div>
-                        <div className='carousel card'><img src="img/netflix.png" alt="" />
+                        <div className='carousel card'><img src="./img/netflix.png" alt="" />
                             <span id='text'>
                                 Netflix Sign-Up clone using pure HTML & CSS
                                 <br/>
                                 <a href="https://github.com/pooranjoyb/netflix-signup-clone" target="_blank" >Check this out!</a>
                             </span>
                         </div>
-                        <div className='carousel card'><img src="img/tictaktoe.png" alt="" />
+                        <div className='carousel card'><img src="./img/tictaktoe.png" alt="" />
                             <span id='text'>
                                 Simple Tic-Tak-Tow Game using C++
                                 <br/>
