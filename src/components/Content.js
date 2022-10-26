@@ -14,7 +14,7 @@ export default function Content() {
       backSpeed: 50,
       backDelay: 1000,
       showCursor: false,
-      loop: false
+      loop: true
     });
   })
   return (
