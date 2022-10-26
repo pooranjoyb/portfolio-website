@@ -3,37 +3,33 @@ import React from 'react'
 export default function Navbar() {
   return (
     <>
-    <nav className="navbar navbar-light bg-light fixed-top">
-          <div className="container-fluid">
-            <a className="navbar-brand" href="#">Portfolio</a>
-            <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-              <div className="offcanvas-header">
-                <h5 className="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
-                <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-              <div className="offcanvas-body">
-                <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
-                  <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">About</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">Services</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">Resume</a>
-                    
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </nav>
+      <nav className="navbar navbar-expand-lg">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="https://github.com/pooranjoyb/portfolio-website"><img src="img/web.png" width='30' alt=""/></a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+        <li className="nav-item px-3">
+          <a className="nav-link" aria-current="page" href="">Home</a>
+        </li>
+        <li className="nav-item px-3">
+          <a className="nav-link" href="#intro">About</a>
+        </li>
+        <li className="nav-item px-3">
+          <a className="nav-link" href="https://drive.google.com/file/d/1aAiHqM03d0scz3aoU4Gasd3jFUJg0qnq/view?usp=sharing" target="_blank">Resume</a>
+        </li>
+        <li className="nav-item px-3">
+          <a className="nav-link" href="#contact">Contact</a>
+        </li>
+        
+        
+      </ul>
+      
+    </div>
+  </div>
+</nav>
     </>
   )
 }
