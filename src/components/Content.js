@@ -29,7 +29,7 @@ export default function Content() {
             <small className="typing-text">I'M A <strong><span className='text-altdeep' ref={element} /></strong></small>
           </div>
           <div className="w-50 p-4 profile-pic">
-            <img src="./portfolio-website/img/desk.svg" alt="" className="img-fluid profile-pic" />
+            <img src="./img/desk.svg" alt="" className="img-fluid profile-pic" />
           </div>
         </div>
         <div className="container d-flex flex-column mytext" id='intro'>
@@ -65,7 +65,7 @@ export default function Content() {
               </ul>
             </div>
             <div className='w-25 p-6 mt-4 text-center' id='details' >
-              <img src="./portfolio-website/img/profile.jpg" className="rounded-circle" alt="Cinque Terre" width='75%' />
+              <img src="./img/profile.jpg" className="rounded-circle" alt="Cinque Terre" width='75%' />
             </div>
           </div>
         </div>
