@@ -1,11 +1,11 @@
-import Navbar from "./Components/Navbar";
+import Navbar from "./components/Navbar";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import Content from "./Components/Content";
+import Content from "./components/Content";
 import './css/custom.min.css'
 import './css/main.css'
-import Skillset from "./Components/Skillset";
-import Projects from "./Components/Projects";
-import Contact from "./Components/Contact";
+import Skillset from "./components/Skillset";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 function App() {
   return (
