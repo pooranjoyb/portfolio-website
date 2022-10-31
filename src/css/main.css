@@ -17,6 +17,18 @@
 
 }
 
+.navbar ul{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand img{
+    filter: invert();
+}
+.navbar-brand img:hover{
+    filter: none;
+}
 .nav-link {
     color: white;
     font-weight: 400;
@@ -37,7 +49,7 @@
 /* content section  */
 
 #head {
-    flex-direction: column;
+    flex-direction: row;
     color: white;
 }
 
@@ -62,10 +74,22 @@
 
 .mytext {
     font-size: 22px;
-    padding-left: 5vh;
     margin-top: 2rem;
 }
 
+#contact{
+    padding: 0px;
+}
+
+#profile-pic{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#desk-img{
+    width: 50%;
+}
 #mydetails {
     list-style: none;
     /* Remove default bullets */
@@ -84,9 +108,14 @@
     padding: 4px;
 }
 
+.heading-text{
+    margin-bottom: 2rem;
+}
+
 #details {
     margin-right: 12px;
 }
+
 
 
 .profile-pic {
@@ -121,8 +150,9 @@
 }
 
 .icons:hover{
+    border: 1.7px solid black;
     filter: invert();
-    background-color: rgba(0, 0, 0, 0.638);
+    background-color: rgb(0, 0, 0);
     transition: 200ms;
 }
 
@@ -137,10 +167,10 @@
 }
 
 .carousel .card {
-    line-height: 45px;
+    line-height: 25px;
     text-align: center;
     margin: 20px 0;
-    width: 70%;
+    width: 80%;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.7);
     align-items: center;
     justify-content: center;
@@ -208,4 +238,8 @@ footer{
     padding-left: 2rem;
     padding-right: 2rem;
     justify-content: space-between;
+}
+
+.social ul{
+    padding-left: 0px;
 }

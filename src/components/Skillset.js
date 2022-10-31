@@ -4,7 +4,7 @@ export default function Skillset() {
     return (
         <>
             <div className="container d-flex flex-column mytext" id=''>
-                <div className='text-altlight fs-2 pb-5 text-center heading-text'>
+                <div className='text-altlight fs-2 text-center heading-text'>
                 MY <strong className='text-altdeep'> SKILLSET </strong>
                 </div>
                 <div className="row">

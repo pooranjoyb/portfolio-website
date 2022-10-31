@@ -3,6 +3,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Content from "./components/Content";
 import './css/custom.min.css'
 import './css/main.css'
+import './css/handset.css'
 import Skillset from "./components/Skillset";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";

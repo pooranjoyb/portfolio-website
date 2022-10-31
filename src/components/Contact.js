@@ -8,7 +8,7 @@ export default function Contact() {
                     <strong className='text-altdeep'> FIND </strong> ME ON
                 </div>
 
-                <div class="social">
+                <div className="social">
 
                 <ul>
                     <li>
