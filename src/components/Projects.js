@@ -1,4 +1,7 @@
 import React from 'react';
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 import Carousel from 'react-elastic-carousel';
 
 const breakpoints = [
@@ -9,11 +12,21 @@ const breakpoints = [
 ];
 
 export default function Projects() {
+
+    useEffect(() => {
+        Aos.init({
+          useClassNames: true,
+          initClassName: false,
+          animatedClassName: 'animated',
+          duration: 1000
+        });
+      }, [])
     return (
         <>
-            <div className="container d-flex flex-column mytext" id=''>
+            <div className="container d-flex flex-column mytext" data-aos="fade-right" data-aos-offset="300" 
+        data-aos-easing="ease-in-out" id='projects'>
                 <div className='text-altlight fs-2 text-center heading-text'>
-                    FEATURED <strong className='text-altdeep'>PROJECTS</strong>
+                    FEATURED <strong className='welcome-text'>PROJECTS</strong>
                 </div>
                 <div className='wrapper'>
                     <Carousel className="carousel" breakpoints={breakpoints} transitionMs={1000} enableAutoPlay={false} autoPlaySpeed={3000} >

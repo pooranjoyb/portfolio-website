@@ -1,9 +1,12 @@
 import React from 'react'
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
+import Aos from 'aos';
+import "aos/dist/aos.css"
+
 export default function Content() {
 
-  
+
   const element = useRef(null);
 
   useEffect(() => {
@@ -17,6 +20,16 @@ export default function Content() {
       loop: true
     });
   })
+
+  useEffect(() => {
+    Aos.init({
+      useClassNames: true,
+      initClassName: false,
+      animatedClassName: 'animated',
+      duration: 2000
+    });
+  }, [])
+
   return (
     <>
       <div
@@ -24,19 +37,20 @@ export default function Content() {
 
         <div className="container my-5 d-flex" id='head'>
           <div className="d-flex flex-column mx-auto mt-5">
-            <div className="display-3 mt-5">Hello there!</div>
-            <div className="fs-1">I'M <strong className='text-altdeep'>Pooranjoy Bhattacharya</strong></div>
+            <div className="display-3 mt-5 welcome-text" >Hello there!</div>
+            <div className="fs-1">I'M <strong className='text-altdeep '>Pooranjoy Bhattacharya</strong></div>
             <small className="typing-text">I'M A <strong><span className='text-altdeep' ref={element} /></strong></small>
           </div>
           <div className="p-4 " id='desk-img'>
             <img src="./img/desk.svg" alt="" className="img-fluid profile-pic" />
           </div>
         </div>
-        <div className="container d-flex flex-column mytext" id='intro'>
-          <div className='text-altlight fs-2 text-center heading-text'>
-            MY <strong className='text-altdeep'> INTRODUCTION </strong>
+        <div className="container d-flex flex-column mytext" id='intro' data-aos="fade-right" data-aos-offset="200"
+          data-aos-easing="ease-in-out">
+          <div className='text-altlight fs-2 text-center heading-text' >
+            MY <strong className='welcome-text'> INTRODUCTION </strong>
           </div>
-          <div className='container d-flex' id="intro-content">
+          <div className='container d-flex' id="intro-content" data-aos="fade-right">
 
             <div className='mr-4 mt-4' >
               <ul id='mydetails'>

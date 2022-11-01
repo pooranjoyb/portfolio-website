@@ -23,6 +23,22 @@
     align-items: center;
 }
 
+/* .welcome-text{
+    color: pink;
+    text-shadow: 0 0 15px orangered, 0 0 25px orangered ;
+    animation: animate 2.5s linear infinite;
+}
+
+@keyframes animate {
+    0%{
+        filter: hue-rotate(0deg);
+        
+    }
+    100%{
+        
+        filter: hue-rotate(360deg);
+    }
+} */
 .navbar-brand img{
     filter: invert();
 }

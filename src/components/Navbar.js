@@ -18,6 +18,9 @@ export default function Navbar() {
           <a className="nav-link" href="#intro">About</a>
         </li>
         <li className="nav-item px-2">
+          <a className="nav-link" href="#projects">Projects</a>
+        </li>
+        <li className="nav-item px-2">
           <a className="nav-link" href="https://drive.google.com/file/d/1aAiHqM03d0scz3aoU4Gasd3jFUJg0qnq/view?usp=sharing" target="_blank">Resume</a>
         </li>
         <li className="nav-item px-2">
