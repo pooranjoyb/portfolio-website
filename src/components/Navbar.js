@@ -3,7 +3,7 @@ import React from 'react'
 export default function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-lg navbar-dark">
   <div className="container-fluid">
     <a className="navbar-brand" href="https://github.com/pooranjoyb/portfolio-website"><img src="./img/web.png" width='30' alt=""/></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
