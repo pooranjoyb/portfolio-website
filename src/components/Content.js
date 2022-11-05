@@ -35,7 +35,7 @@ export default function Content() {
       <div
         className="container">
 
-        <div className="container my-5 d-flex" id='head'>
+        <div className="container py-5 d-flex" id='head'>
           <div className="d-flex flex-column mx-auto mt-5">
             <div className="display-3 mt-5 welcome-text" >Hello there!</div>
             <div className="fs-1">I'M <strong className='text-altdeep '>Pooranjoy Bhattacharya</strong></div>
