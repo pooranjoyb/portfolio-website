@@ -1,9 +1,22 @@
-import React from 'react'
+import React from 'react';
+import { useState } from 'react';
 
 export default function Navbar() {
+
+  const [navbar, setnavbar] = useState(false);
+
+  const changeBackground = () => {
+      if(window.scrollY >= 70){
+        setnavbar(true);
+      }
+      else  
+        setnavbar(false);
+  }
+
+  window.addEventListener('scroll', changeBackground)
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
+      <nav className={navbar ? "navbar active navbar-expand-lg navbar-dark fixed-top" : "navbar navbar-expand-lg navbar-dark fixed-top"}>
   <div className="container-fluid">
     <a className="navbar-brand" href="https://github.com/pooranjoyb/portfolio-website"><img src="./img/web.png" width='30' alt=""/></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

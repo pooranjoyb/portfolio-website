@@ -14,11 +14,15 @@
 
     --bs-navbar-brand-color: rgba(255, 255, 255, 0.9);
     --bs-navbar-hover-color: none;
+    
+}
+
+.navbar.active{
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255,255,255,0));
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     box-shadow: 0 20px 30px 0 rgba(0,0,0,0.1);
-    
+    transition: all 100ms ease-out;
 }
 
 .navbar ul{
