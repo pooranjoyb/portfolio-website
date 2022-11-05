@@ -22,7 +22,7 @@
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     box-shadow: 0 20px 30px 0 rgba(0,0,0,0.1);
-    transition: all 100ms ease-out;
+
 }
 
 .navbar ul{
