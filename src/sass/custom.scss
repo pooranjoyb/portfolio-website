@@ -1,16 +1,18 @@
-$primary: rgb(216, 66, 66);
+@import "D:/workspace/web/Projects/portfolio-website/node_modules/bootstrap/scss/bootstrap.scss";
+
+$primary: #C22210;
 $navbar-padding-y:  4px;
 $navbar-padding-x:  3px;
 
-@import "D:/workspace/web/Projects/portfolio/node_modules/bootstrap/scss/_functions";
-@import "D:/workspace/web/Projects/portfolio/node_modules/bootstrap/scss/_variables";
+@import "D:/workspace/web/Projects/portfolio-website/node_modules/bootstrap/scss/_functions.scss";
+@import "D:/workspace/web/Projects/portfolio-website/node_modules/bootstrap/scss/_variables.scss";
 
 $custom-theme-colors:(
   "altlight":#ffffff,
   "altdark":#ea939b,
-  "altdeep": #2411c7,
+
 );
 
 $theme-colors: map-merge($custom-theme-colors,$theme-colors);
 
-@import "D:/workspace/web/Projects/portfolio/node_modules/bootstrap/scss/bootstrap.scss";
+@import "D:/workspace/web/Projects/portfolio-website/node_modules/bootstrap/scss/bootstrap.scss";

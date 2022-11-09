@@ -6,15 +6,15 @@
 }
 
 :root {
-    --primary-color: #2411c7;
+    --primary-color: #540026;
 }
 
 /* Navbar section */
 .navbar {
 
-    --bs-navbar-brand-color: rgba(255, 255, 255, 0.9);
+    --bs-navbar-brand-color: rgba(255, 255, 255, 0.2);
     --bs-navbar-hover-color: none;
-    
+    font-weight: bolder;
 }
 
 .navbar.active{
@@ -31,12 +31,12 @@
     align-items: center;
 }
 
-/* .welcome-text{
-    color: pink;
-    text-shadow: 0 0 15px orangered, 0 0 25px orangered ;
-    animation: animate 2.5s linear infinite;
+.welcome-text{
+    color: white;
+    text-shadow: 0 0 15px #940043, 0 0 25px #540026 ;
 }
 
+/* 
 @keyframes animate {
     0%{
         filter: hue-rotate(0deg);
@@ -75,11 +75,19 @@
 #head {
     flex-direction: row;
     color: white;
+    z-index: 1;
+}
+
+.text-altdeep{
+    color: #540026;
 }
 
 #main {
-    background: url(/public/img/bgimg.jpg) no-repeat;
     background-size: cover;
+    /* background-color: #b6187e; */
+    background-color: #D4005F;
+    /* background-color: #ad23b6; */
+    ;
     background-attachment: fixed;
 }
 
@@ -90,7 +98,6 @@
     height: 100%;
     width: 100%;
 }
-
 
 #introtext {
     font-size: small;
@@ -146,6 +153,10 @@
     will-change: transform;
     transition: all 400ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s;
     transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+}
+
+.color-date{
+    color: white;
 }
 
 .typing-text {
@@ -206,6 +217,10 @@
     border-radius: 6px;
 }
 
+.carousel a{
+    color: var(--primary-color);
+}
+
 #text{
     font-size: 1rem;
 }
@@ -222,6 +237,7 @@
 .social{
     display: flex;
     justify-content: center;
+    z-index: 1;
 }
 .social ul{
     display: flex;
@@ -258,7 +274,9 @@ footer{
     display: flex;
     background-color: rgb(214, 90, 119);
     color: white;
+    font-weight: 600;
     padding: .7rem;
+    z-index: 1;
     padding-left: 2rem;
     padding-right: 2rem;
     justify-content: space-between;

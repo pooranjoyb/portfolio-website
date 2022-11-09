@@ -18,8 +18,8 @@ export default function Skillset() {
             <div className="container d-flex flex-column mytext" 
             data-aos="fade-right" data-aos-offset="300" 
         data-aos-easing="ease-in-out" >
-                <div className='text-altlight fs-2 text-center heading-text'>
-                MY <strong className='welcome-text'> SKILLSET </strong>
+                <div className='welcome-text fs-2 text-center heading-text'>
+                MY <strong> SKILLSET </strong>
                 </div>
                 <div className="row">
                     <div className="icons col-md-2 col-4">

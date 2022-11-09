@@ -4,7 +4,7 @@ export default function Contact() {
     return (
         <>
             <div className="container d-flex flex-column mytext" id='contact'>
-                <div className='text-altlight fs-2 pb-5 text-center heading-text'>
+                <div className='text-altdeep fs-2 pb-5 text-center heading-text'>
                     <strong className='welcome-text'> FIND ME</strong>  ON
                 </div>
 
