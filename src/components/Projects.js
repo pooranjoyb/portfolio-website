@@ -59,7 +59,7 @@ export default function Projects() {
                         </div>
                         <div className='carousel card'><img src="./img/tictaktoe.png" alt="" />
                             <div id='text'>
-                                Simple Tic-Tak-Tow Game using C++
+                                Simple Tic-Tak-Toe Game using C++
                                 <br/>
                                 <a href="https://github.com/pooranjoyb/TicTakToe-Cpp" target="_blank" >Check this out!</a>
                             </div>
