@@ -9,15 +9,15 @@ export default function Skillset() {
             useClassNames: true,
             initClassName: false,
             animatedClassName: 'animated',
-            duration: 1000
+            duration: 800
         });
       }, [])
       
-    return (
-        <>
+      return (
+          <>
             <div className="container d-flex flex-column mytext" 
-            data-aos="fade-right" data-aos-offset="300" 
-        data-aos-easing="ease-in-out" >
+            data-aos="fade-right" data-aos-offset="0" 
+            data-aos-easing="ease-in-out" >
                 <div className='welcome-text fs-2 text-center heading-text'>
                 MY <strong> SKILLSET </strong>
                 </div>
@@ -47,7 +47,7 @@ export default function Skillset() {
                         <img src="./icons/bootstrap.png" alt="JavaScript" />
                     </div>
                 </div>
-            </div>
+                </div>
         </>
     )
 }

@@ -18,12 +18,12 @@ export default function Projects() {
           useClassNames: true,
           initClassName: false,
           animatedClassName: 'animated',
-          duration: 1000
+          duration: 800
         });
       }, [])
     return (
         <>
-            <div className="container d-flex flex-column mytext" data-aos="fade-right" data-aos-offset="300" 
+            <div className="container d-flex flex-column mytext" data-aos="fade-right" data-aos-offset="0" 
         data-aos-easing="ease-in-out" id='projects'>
                 <div className='welcome-text fs-2 text-center heading-text'>
                     FEATURED <strong >PROJECTS</strong>
