@@ -5,6 +5,16 @@
     scroll-behavior: smooth;
 }
 
+::-moz-selection { 
+    color: #540026;
+    background: rgb(233, 151, 170);
+  }
+  
+  ::selection {
+    color: #540026;
+    background: rgb(214, 90, 119);
+  }
+
 :root {
     --primary-color: #540026;
 }
