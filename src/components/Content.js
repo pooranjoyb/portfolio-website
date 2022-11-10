@@ -1,5 +1,10 @@
 import React from 'react'
 import { useEffect, useRef } from 'react';
+import {FaSchool} from 'react-icons/fa'
+import {FaDesktop} from 'react-icons/fa'
+import {FaDev} from 'react-icons/fa'
+import {FaGithub} from 'react-icons/fa'
+import {FaMusic} from 'react-icons/fa'
 import Typed from 'typed.js';
 import Aos from 'aos';
 import "aos/dist/aos.css"
@@ -59,6 +64,7 @@ export default function Content() {
               // contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
               date="2005 - present"
               dateClassName={"color-date"}
+              icon={<FaSchool/>}
               iconStyle={{ background: '#AB09A3', color: '#fff' }}
             >
               <h3 className="vertical-timeline-element-title">Education</h3>
@@ -72,6 +78,7 @@ export default function Content() {
               className="vertical-timeline-element--work"
               date="2021 - present"
               dateClassName={"color-date"}
+              icon={<FaDesktop/>}
               iconStyle={{ background: '#7B08A1', color: '#fff' }}
               >
               <h3 className="vertical-timeline-element-title">Aspiring Web Developer</h3>
@@ -85,6 +92,7 @@ export default function Content() {
               className="vertical-timeline-element--work"
               date="2021 - 2022"
               dateClassName={"color-date"}
+              icon={<FaDev/>}
               iconStyle={{ background: '#7B08A1', color: '#fff' }}
             >
               <h3 className="vertical-timeline-element-title">Work Experience</h3>
@@ -100,6 +108,7 @@ export default function Content() {
               className="vertical-timeline-element--work"
               date="Oct - Dec, 2022"
               dateClassName={"color-date"}
+              icon={<FaGithub/>}
               iconStyle={{ background: '#AB09A3', color: '#fff' }}
 
             >
@@ -114,6 +123,7 @@ export default function Content() {
               className="vertical-timeline-element--education"
               date="2017 - 2018"
               dateClassName={"color-date"}
+              icon={<FaMusic/>}
               iconStyle={{ background: '#7B08A1', color: '#fff' }}
 
             >
