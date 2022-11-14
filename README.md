@@ -96,6 +96,6 @@ Note: Please note that cloning depends on the internet connection and the time w
 
 - Check in the local drive by navigating to it manually.
 
-- Open the ***index.html*** file to view the project
+- Open terminal in that directory & run ***npm start*** to start the development server
 
 Contributions and Commits are apppreciated. 
