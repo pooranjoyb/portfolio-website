@@ -3,6 +3,7 @@ import { useEffect, useRef } from 'react';
 import {FaSchool} from 'react-icons/fa'
 import {FaDesktop} from 'react-icons/fa'
 import {FaDev} from 'react-icons/fa'
+import {FaAngleDoubleDown} from 'react-icons/fa'
 import {FaGithub} from 'react-icons/fa'
 import {FaMusic} from 'react-icons/fa'
 import Typed from 'typed.js';
@@ -41,7 +42,7 @@ export default function Content() {
       <div
         className="container">
 
-        <div className="container py-5 d-flex" id='head'>
+        <div className="container d-flex" id='head'>
           <div className="d-flex flex-column mx-auto mt-5 ">
             <div className="display-3 mt-5 welcome-text" >HELLO THERE!</div>
             <div className="fs-1">I'M <strong className='welcome-text'>Pooranjoy Bhattacharya</strong></div>
@@ -50,6 +51,9 @@ export default function Content() {
           <div className="p-4 " id='desk-img'>
             <img src="./img/desk.svg" alt="" className="img-fluid profile-pic" />
           </div>
+        </div>
+        <div id='scrollicon'>
+          <FaAngleDoubleDown size="2rem"/>
         </div>
         <div className="container d-flex flex-column mytext" id='intro' data-aos="fade-right" data-aos-offset="0"
           data-aos-easing="ease-in-out">

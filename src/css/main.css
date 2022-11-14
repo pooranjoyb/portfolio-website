@@ -87,6 +87,7 @@
     flex-direction: row;
     color: white;
     z-index: 1;
+    padding-top: 3rem;
 }
 
 .text-altdeep{
@@ -132,6 +133,28 @@
 #desk-img{
     width: 50%;
 }
+
+#scrollicon{
+    filter: invert();
+    animation: scrollbelow 1.4s 5 forwards;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+@keyframes scrollbelow {
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 10px;
+        opacity: 0;
+        display: none;
+    }
+}
+
+
 #mydetails {
     list-style: none;
     /* Remove default bullets */
