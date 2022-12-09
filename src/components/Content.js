@@ -7,7 +7,6 @@ import {FaAngleDoubleDown} from 'react-icons/fa'
 import {FaGithub} from 'react-icons/fa'
 import {FaMusic} from 'react-icons/fa'
 import Typed from 'typed.js';
-import Aos from 'aos';
 import "aos/dist/aos.css"
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
@@ -28,14 +27,6 @@ export default function Content() {
     });
   })
 
-  useEffect(() => {
-    Aos.init({
-      useClassNames: true,
-      initClassName: false,
-      animatedClassName: 'animated',
-      duration: 800
-    });
-  }, [])
 
   return (
     <>
@@ -55,8 +46,7 @@ export default function Content() {
         <div id='scrollicon'>
           <FaAngleDoubleDown size="2rem"/>
         </div>
-        <div className="container d-flex flex-column mytext" id='intro' data-aos="fade-right" data-aos-offset="0"
-          data-aos-easing="ease-in-out">
+        <div className="container d-flex flex-column mytext" id='intro'>
           <div className='welcome-text fs-2 text-center heading-text' >
             MY <strong > INTRODUCTION </strong>
           </div>

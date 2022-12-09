@@ -26,25 +26,25 @@ export default function Skillset() {
                         <img src="./icons/java-script.png" alt="JavaScript" />
                     </div>
                     <div className="icons col-md-2 col-4">
-                        <img src="./icons/c-logo.png" alt="JavaScript" />
+                        <img src="./icons/c-logo.png" alt="C" />
                     </div>
                     <div className="icons col-md-2 col-4">
-                        <img src="./icons/html-5-logo.png" alt="JavaScript" />
+                        <img src="./icons/html-5-logo.png" alt="Html" />
                     </div>
                     <div className="icons col-md-2 col-4">
-                        <img src="./icons/css-3.png" alt="JavaScript" />
+                        <img src="./icons/css-3.png" alt="Css" />
                     </div>
                     <div className="icons col-md-2 col-4">
-                        <img src="./icons/atom.png" alt="JavaScript" />
+                        <img src="./icons/atom.png" alt="React" />
                     </div>
                     <div className="icons col-md-2 col-4">
-                        <img src="./icons/mongo.png" alt="JavaScript" />
+                        <img src="./icons/mongo.png" alt="Mongo" />
                     </div>
                     <div className="icons col-md-2 col-4">
-                        <img src="./icons/github.png" alt="JavaScript" />
+                        <img src="./icons/github.png" alt="Github" />
                     </div>
                     <div className="icons col-md-2 col-4">
-                        <img src="./icons/bootstrap.png" alt="JavaScript" />
+                        <img src="./icons/bootstrap.png" alt="Bootstrap" />
                     </div>
                 </div>
                 </div>
