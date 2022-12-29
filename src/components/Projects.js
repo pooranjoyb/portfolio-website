@@ -40,7 +40,21 @@ export default function Projects() {
                             <div id='text'>
                                 Portfolio Website using ReactJS
                                 <br/>
-                                <a href="">Check this out!</a>
+                                <a href="https://github.com/pooranjoyb/portfolio-website/" target="_blank">Check this out!</a>
+                            </div>
+                        </div>
+                        <div className='carousel card'><img src="./img/weather-app.png" alt="" />
+                            <div id='text'>
+                                Weather-App using NodeJS
+                                <br/>
+                                <a href="https://github.com/pooranjoyb/weather-app/" target="_blank">Check this out!</a>
+                            </div>
+                        </div>
+                        <div className='carousel card'><img src="./img/places-api.png" alt="" />
+                            <div id='text'>
+                                Places-API using NodeJS and JSON-Server
+                                <br/>
+                                <a href="https://github.com/pooranjoyb/weather-app/" target="_blank">Check this out!</a>
                             </div>
                         </div>
                         <div className='carousel card'><img src="./img/ageCalc.png" alt="" />
