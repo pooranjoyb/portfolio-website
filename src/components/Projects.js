@@ -43,11 +43,25 @@ export default function Projects() {
                                 <a href="https://github.com/pooranjoyb/portfolio-website/" target="_blank">Check this out!</a>
                             </div>
                         </div>
+                        <div className='carousel card'><img src="./img/health-bridge.png" alt="AImodel" />
+                            <div id='text'>
+                                Machine Learning Model to predict diseases using NLP
+                                <br/>
+                                <a href="https://github.com/pooranjoyb/health-bridge/" target="_blank">Check this out!</a>
+                            </div>
+                        </div>
                         <div className='carousel card'><img src="./img/weather-app.png" alt="" />
                             <div id='text'>
                                 Weather-App using NodeJS
                                 <br/>
                                 <a href="https://github.com/pooranjoyb/weather-app/" target="_blank">Check this out!</a>
+                            </div>
+                        </div>
+                        <div className='carousel card'><img src="./img/covid.png" alt="" />
+                            <div id='text'>
+                                Desktop App using KivyMD & Rapid API
+                                <br/>
+                                <a href="https://github.com/pooranjoyb/covid-app/" target="_blank">Check this out!</a>
                             </div>
                         </div>
                         <div className='carousel card'><img src="./img/places-api.png" alt="" />
@@ -62,20 +76,6 @@ export default function Projects() {
                                 Age Calculator App using HTML, CSS & JavaScript
                                 <br/>
                                 <a href="https://github.com/pooranjoyb/Age-Calculator" target="_blank" >Check this out!</a>
-                            </div>
-                        </div>
-                        <div className='carousel card'><img src="./img/netflix.png" alt="" />
-                            <div id='text'>
-                                Netflix Sign-Up clone using pure HTML & CSS
-                                <br/>
-                                <a href="https://github.com/pooranjoyb/netflix-signup-clone" target="_blank" >Check this out!</a>
-                            </div>
-                        </div>
-                        <div className='carousel card'><img src="./img/tictaktoe.png" alt="" />
-                            <div id='text'>
-                                Simple Tic-Tak-Toe Game using C++
-                                <br/>
-                                <a href="https://github.com/pooranjoyb/TicTakToe-Cpp" target="_blank" >Check this out!</a>
                             </div>
                         </div>
                     </Carousel>

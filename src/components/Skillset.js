@@ -29,6 +29,9 @@ export default function Skillset() {
                         <img src="./icons/c-logo.png" alt="C" />
                     </div>
                     <div className="icons col-md-2 col-4">
+                        <img src="./icons/python.png" alt="Python" />
+                    </div>
+                    <div className="icons col-md-2 col-4">
                         <img src="./icons/html-5-logo.png" alt="Html" />
                     </div>
                     <div className="icons col-md-2 col-4">
@@ -38,7 +41,19 @@ export default function Skillset() {
                         <img src="./icons/atom.png" alt="React" />
                     </div>
                     <div className="icons col-md-2 col-4">
+                        <img src="./icons/nodejs.png" alt="NodeJS" />
+                    </div>
+                    <div className="icons col-md-2 col-4">
+                        <img src="./icons/tailwind.png" alt="Tailwind" />
+                    </div>
+                    <div className="icons col-md-2 col-4">
                         <img src="./icons/mongo.png" alt="Mongo" />
+                    </div>
+                    <div className="icons col-md-2 col-4">
+                        <img src="./icons/firebase.png" alt="Firebase" />
+                    </div>
+                    <div className="icons col-md-2 col-4">
+                        <img src="./icons/mysql.png" alt="MySQL" />
                     </div>
                     <div className="icons col-md-2 col-4">
                         <img src="./icons/github.png" alt="Github" />
