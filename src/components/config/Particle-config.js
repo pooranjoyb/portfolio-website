@@ -19,11 +19,6 @@ const particlesConfig = {
             polygon: {
                 nb_sides: 5
             },
-            // image: {
-            //   src: "img/github.svg",
-            //   width: 120,
-            //   height: 120
-            // }
         },
         opacity: {
             value: 0.5,
