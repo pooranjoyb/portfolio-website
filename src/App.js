@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     if (window.confirm('Hii :) Thanks for visiting my Portfolio. But this is the old one :/\nClick "OK" to go to my latest portfolio!!')) {
-      window.location.href = "https://pooranjoyb.tech/"
+      window.location.href = "https://pooranjoyb.github.io/";
     }
   }, [])
   
