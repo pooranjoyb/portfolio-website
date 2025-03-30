@@ -64,7 +64,7 @@ export default function Content() {
               <h4 className="vertical-timeline-element-subtitle">Assam, India</h4>
               <p>
                 I've completed my Schooling from <strong className='text-altdeep'>Guru Teg Bahadur Academy</strong> in 2019 and Higher Secondary Education from <strong className='text-altdeep'>Salt Brook Academy</strong> in 2021<br />
-                I'm currently a 3rd year CSE Undergraduate from <strong className='text-altdeep'>Sikkim Manipal Institute of Technology, </strong>Majitar, Sikkim, India
+                I'm currently a 4th year CSE Undergraduate from <strong className='text-altdeep'>Sikkim Manipal Institute of Technology, </strong>Majitar, Sikkim, India
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
